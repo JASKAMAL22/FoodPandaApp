@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground"
+    tools:context=".Menu_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:background="@drawable/headmenu"
+            android:orientation="horizontal" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="64dp"
+            android:text="@string/drinks"
+            android:textColor="#22F4FF"
+            android:textSize="23sp"
+            android:textStyle="italic"
+            android:layout_marginStart="64dp" />
+
+        <ImageView
+            android:id="@+id/drinky"
+            android:layout_width="209dp"
+            android:layout_height="130dp"
+            android:layout_gravity="start"
+            app:srcCompat="@drawable/drinks"
+            android:contentDescription="TODO" />
+
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="264dp"
+            android:text="@string/dessert"
+            android:textColor="#22F4FF"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+
+        <ImageView
+            android:id="@+id/desserty"
+            android:layout_width="182dp"
+            android:layout_height="144dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/dessert" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="66dp"
+            android:text="Food Corner"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/foody"
+            android:layout_width="233dp"
+            android:layout_height="138dp"
+            app:srcCompat="@drawable/food" />
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
